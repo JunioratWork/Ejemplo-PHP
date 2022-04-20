@@ -7,7 +7,7 @@
     <title>Respuesta de la IPN</title>
 </head>
 <body> 
-
+     
     <title>Respuesta de la IPN</title>
 
     <?php
