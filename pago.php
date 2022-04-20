@@ -14,7 +14,7 @@ require "./API/FormToken.php"
   <script 
    src="https://api.micuentaweb.pe/static/js/krypton-client/V4.0/stable/kr-payment-form.min.js"
    kr-public-key="51447378:testpublickey_3SNSOCewrXOZNL2oNYoixUO4q9RaBwClYyCIEofTLGs2g"
-   kr-post-url-success="">
+   kr-post-url-success="RespuestaIPN.php">
   </script>
 
   <!-- theme and plugins. should be loaded after the javascript library -->
