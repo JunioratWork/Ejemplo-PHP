@@ -1,5 +1,7 @@
 <?php
-require "./API/FormToken.php"
+//require('./FormToken.php');
+require_once __DIR__ . '/FormToken.php';
+//echo $formtoken;
 ?>
 
 <!DOCTYPE html>

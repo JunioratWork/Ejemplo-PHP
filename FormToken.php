@@ -9,7 +9,7 @@
         "email" => "sample@example.com"
         )
     );
-    
+   
     $data_string = json_encode($data);                                                                                   
     $ch = curl_init('https://server-node-izipay.herokuapp.com/payment/init');
     //curl_setopt($ch, CURLOPT_USERPWD, "user:pwd");                                                                       
@@ -24,5 +24,6 @@
     $result = curl_exec($ch);
     $formtoken = trim($result);
     //var_dump($result);
-
+    //echo $formtoken;
+    
 ?>
